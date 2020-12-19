@@ -2,7 +2,7 @@ def input_choose_piece(position, available_pieces=None):
     while True:
         if available_pieces:
             print(
-                "Forced captures are enabled! You can only chooce the highlighted figures.")
+                "Forced captures are enabled! You can only choose the highlighted figures.")
         coord = input(
             "Enter the figure coordinates(row+column without space ex. 70 for down left)<x to exit>:")
         try:
