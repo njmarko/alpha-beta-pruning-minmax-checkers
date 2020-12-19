@@ -44,7 +44,7 @@ def input_choose_piece(position, available_pieces=None):
 def input_choose_field(valid_moves):
     while True:
         coord = input(
-            "Enter the figure coordinates(row+column without space ex. 70 for down left)<x to exit>:")
+            "Enter the field coordinates(row+column without space ex. 70 for down left)<x to exit>:")
         try:
             if coord.lower() == "x":
                 return None
